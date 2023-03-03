@@ -1,0 +1,28 @@
+{% extends "tutorials/base.html" %} {% load static %}{% block title %} NuCamp:
+Logout {% endblock%} {% block content%}
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item active">Login</li>
+      </ol>
+      <h2>Login</h2>
+      <hr />
+    </div>
+  </div>
+  <div class="row row-content">
+    <h5 class="card-title text-center">
+      <b>You have been logged out!</b>
+    </h5>
+    <form class="form-signin">
+      <div class="form-group">
+        <a class="btn btn-lg btn-primary btn-block" href="{% url 'login' %}"
+          >Login Again</a
+        >
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %} {% block jsfiles %} {% endblock jsfiles %}
