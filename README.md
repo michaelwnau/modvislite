@@ -1,11 +1,12 @@
 # Modvis Lite
 ## Project name: modvis_
 ## Description
-Modvis Lite is a lightweight visualization library for 
-data modeling and analysis. It provides a simple and 
-intuitive interface for extracting data from endpoints,
-visualizing the data, and performing analysis on the data.
-Modvis Lite is built as part of the Modvis project, which
+Modvis Lite is a lightweight library that supports data mining,  
+ETL/ELT, migration, database reconstruction and analysis. It provides 
+a simple and intuitive interface for extracting data from endpoints,
+moving it into a database, sending it to csv, cleanaing, preparing, and 
+supporting a variety of pipeline use-cases.
+ModvisLite is built as part of the Modvis project, which
 is a machine learning pipeline for building models from
 UGC data. Modvis Lite is a standalone library that can be used
 for data discovery and analysis.
