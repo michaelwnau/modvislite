@@ -24,6 +24,6 @@ You can install Modvis Lite using pip:
 ### Run the Docker container and map port 8000
     docker run -p 8000:8000 modvislite
 
-### Open a browser and navigate to http://localhost:8000
+Open a browser and navigate to http://localhost:8000
 
-### Add your endpoints and visualize your data
+Add your endpoints and visualize your data
