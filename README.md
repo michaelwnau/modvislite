@@ -4,7 +4,7 @@
 Modvis Lite is a lightweight library that supports data mining,  
 ETL/ELT, migration, database reconstruction and analysis. It provides 
 a simple and intuitive interface for extracting data from endpoints,
-moving it into a database, sending it to csv, cleanaing, preparing, and 
+moving it into a database, sending it to csv, cleaning, preparing, and 
 supporting a variety of pipeline use-cases.
 ModvisLite is built as part of the Modvis project, which
 is a machine learning pipeline for building models from
