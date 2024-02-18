@@ -3,7 +3,7 @@ import streamlit as st
 total_points = st.slider("Total points", 0, 100, 50)
 num_turns = st.slider("Number of turns", 1, 10, 5)
 
-Point = namedtuple("Point", 'x y')
+Point = namedtuple("Point", 'x y') # Fix this line iaw ruff linting
 data = []
 
 points_per_turn = total_points / num_turns
