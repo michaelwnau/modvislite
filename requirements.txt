@@ -6,6 +6,7 @@ psycopg2-binary>=2.9.5
 python-decouple>=3.8
 pytz>=2022.7.1
 pre-commit>=3.6.2
+ruff>=0.2.2
 streamlit>=1.1.1
 sqlparse>=0.4.3
 tzdata>=2022.7
